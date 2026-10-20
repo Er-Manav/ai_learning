@@ -1,4 +1,14 @@
 .venv/
 .env
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Local tooling and test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment and editor files
+.vscode/
+.idea/
